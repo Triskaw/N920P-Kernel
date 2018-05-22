@@ -67,7 +67,7 @@ export SUB_ARCH=arm64;
 
 # N920P
 if [ "$TARGET" = "N920P" ] ; then
-	export KERNEL_CONFIG="custom_defconfig";
+	export KERNEL_CONFIG="exynos7420-noblelte_usa_spr_defconfig";
 fi;
 
 # G925T
